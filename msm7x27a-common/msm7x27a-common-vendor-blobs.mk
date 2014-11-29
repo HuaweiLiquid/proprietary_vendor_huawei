@@ -34,30 +34,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/msm7x27a-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/msm7x27a-common/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
-    vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/huawei/msm7x27a-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
-    vendor/huawei/msm7x27a-common/proprietary/lib/modules/ff-memless.ko:system/lib/modules/ff-memless.ko \
-    vendor/huawei/msm7x27a-common/proprietary/lib/modules/hid-dr.ko:system/lib/modules/hid-dr.ko \
-    vendor/huawei/msm7x27a-common/proprietary/lib/modules/hid-logitech.ko:system/lib/modules/hid-logitech.ko \
-    vendor/huawei/msm7x27a-common/proprietary/lib/modules/xpad.ko:system/lib/modules/xpad.ko \
     vendor/huawei/msm7x27a-common/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
@@ -153,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libnv.so:obj/lib/libnv.so \
@@ -193,4 +175,23 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/lib/libwidevine.so:system/lib/libwidevine.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
-    vendor/huawei/msm7x27a-common/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \
+    vendor/huawei/msm7x27a-common/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
+
+#Adreno Firmware & Libs
+PRODUCT_COPY_FILES += \
+    vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/huawei/msm7x27a-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
